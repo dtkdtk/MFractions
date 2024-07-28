@@ -2,7 +2,7 @@
 Tiny C library for basic math calculations with fractions
 
 > [!WARNING]\
-> At the moment, MFractions is tested only on Windows 10 and MVSC compiler. If you have issues with compiling on other platforms - please create a PR or issue in the GitHub repository.
+> At the moment, MFractions is tested only on Windows 10 and MVSC compiler. If you have issues with compiling on other platforms - please create [a pull request (PR)](https://github.com/dtkdtk/MFractions/pulls) or [an issue](https://github.com/dtkdtk/MFractions/issues) in the GitHub repository.
 
 # Features
 - Built-in C++ bindings
@@ -13,6 +13,13 @@ Tiny C library for basic math calculations with fractions
 # TODO
 - [ ] Documentation
 - [ ] 100% compatibility with Linux & MacOS
+- [ ] More functions for math calculations with fractions
+- [ ] Bindings for other languages:
+	- [ ] JavaScript
+	- [ ] Rust
+	- [ ] Python
+	- [ ] Java
+	- [ ] C#
 
 # API
 TODO
