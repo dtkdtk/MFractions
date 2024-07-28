@@ -20,6 +20,7 @@ Tiny C library for basic math calculations with fractions
 	- [ ] Python
 	- [ ] Java
 	- [ ] C#
+- [ ] Benchmarks
 
 # About the C code-generation (overloading mechanism)
 All functions (and also the `fraction_<*>_t` structure) are wrapped in the same-named macros - `MF__DEFINE__<name>`, which accept the `type` argument - i.e. any numeric data type. These macros are **generators**. They generate a **function overload** for the specified data type.
