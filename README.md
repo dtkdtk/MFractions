@@ -40,7 +40,7 @@ Example: (needed overload of the `reduce_fraction` function for type `u16`)
 /* #include ... */
 
 MF__DEFINE__fraction_struct(u16)
-mf__DEFINE__reduce_fraction(u16)
+MF__DEFINE__reduce_fraction(u16)
 ```
 
 # API
