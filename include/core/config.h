@@ -10,9 +10,9 @@
 
 #if _MSC_VER >= 1310 
 #    define MF__NORETURN __declspec(noreturn)
-#elif __GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ >= 5)
+#elif defined(__GNUC__) && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ >= 5))
 #    define MF__NORETURN __attribute__ ((noreturn))
-#elif __STDC_VERSION__ >= 201ymmL
+#elif defined(__STDC_VERSION__) && __STDC_VERSION__ >= 201ymmL
 #    define MF__NORETURN _Noreturn
 #else
 #    define MF__NORETURN
