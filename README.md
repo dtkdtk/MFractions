@@ -14,12 +14,6 @@ Tiny C library for basic math calculations with fractions
 - [ ] Documentation
 - [ ] 100% compatibility with Linux & MacOS
 - [ ] More functions for math calculations with fractions
-- [ ] Bindings for other languages:
-	- [ ] JavaScript
-	- [ ] Rust
-	- [ ] Python
-	- [ ] Java
-	- [ ] C#
 - [ ] Benchmarks
 
 # About the C code-generation (overloading mechanism)
